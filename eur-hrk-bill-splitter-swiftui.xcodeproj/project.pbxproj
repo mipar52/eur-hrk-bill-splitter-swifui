@@ -1,0 +1,396 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1CEE381296EB9D200411EE5 /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CEE380296EB9D200411EE5 /* MainScreen.swift */; };
+		A1CEE383296EBB1A00411EE5 /* RectangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CEE382296EBB1A00411EE5 /* RectangleView.swift */; };
+		A1CEE388296EECE800411EE5 /* AmountTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CEE387296EECE800411EE5 /* AmountTextField.swift */; };
+		A1CEE38A296EEE4D00411EE5 /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CEE389296EEE4D00411EE5 /* TitleView.swift */; };
+		A1CEE38C296EEF6600411EE5 /* CurrencyShower.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CEE38B296EEF6600411EE5 /* CurrencyShower.swift */; };
+		A1CEE38E296EFFF300411EE5 /* CollapsibleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CEE38D296EFFF300411EE5 /* CollapsibleView.swift */; };
+		A1FF8919296D84B500B6E36E /* eur-hrk-bill-splitter-swiftui.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FF8918296D84B500B6E36E /* eur-hrk-bill-splitter-swiftui.swift */; };
+		A1FF891B296D84B500B6E36E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FF891A296D84B500B6E36E /* ContentView.swift */; };
+		A1FF891D296D84B600B6E36E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1FF891C296D84B600B6E36E /* Assets.xcassets */; };
+		A1FF8920296D84B600B6E36E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1FF891F296D84B600B6E36E /* Preview Assets.xcassets */; };
+		A1FF8927296DAC8100B6E36E /* Converter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FF8926296DAC8100B6E36E /* Converter.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A1CEE380296EB9D200411EE5 /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
+		A1CEE382296EBB1A00411EE5 /* RectangleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleView.swift; sourceTree = "<group>"; };
+		A1CEE387296EECE800411EE5 /* AmountTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmountTextField.swift; sourceTree = "<group>"; };
+		A1CEE389296EEE4D00411EE5 /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
+		A1CEE38B296EEF6600411EE5 /* CurrencyShower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyShower.swift; sourceTree = "<group>"; };
+		A1CEE38D296EFFF300411EE5 /* CollapsibleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollapsibleView.swift; sourceTree = "<group>"; };
+		A1FF8915296D84B500B6E36E /* eur-hrk-bill-splitter-swiftui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "eur-hrk-bill-splitter-swiftui.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1FF8918296D84B500B6E36E /* eur-hrk-bill-splitter-swiftui.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "eur-hrk-bill-splitter-swiftui.swift"; sourceTree = "<group>"; };
+		A1FF891A296D84B500B6E36E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A1FF891C296D84B600B6E36E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1FF891F296D84B600B6E36E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A1FF8926296DAC8100B6E36E /* Converter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Converter.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1FF8912296D84B500B6E36E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1CEE384296EBB1E00411EE5 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				A1FF891A296D84B500B6E36E /* ContentView.swift */,
+				A1CEE380296EB9D200411EE5 /* MainScreen.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		A1CEE385296EBB2500411EE5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A1CEE382296EBB1A00411EE5 /* RectangleView.swift */,
+				A1CEE387296EECE800411EE5 /* AmountTextField.swift */,
+				A1CEE389296EEE4D00411EE5 /* TitleView.swift */,
+				A1CEE38B296EEF6600411EE5 /* CurrencyShower.swift */,
+				A1CEE38D296EFFF300411EE5 /* CollapsibleView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A1CEE386296EBB2C00411EE5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A1FF8926296DAC8100B6E36E /* Converter.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A1FF890C296D84B400B6E36E = {
+			isa = PBXGroup;
+			children = (
+				A1FF8917296D84B500B6E36E /* eur-hrk-bill-splitter-swiftui */,
+				A1FF8916296D84B500B6E36E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1FF8916296D84B500B6E36E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1FF8915296D84B500B6E36E /* eur-hrk-bill-splitter-swiftui.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1FF8917296D84B500B6E36E /* eur-hrk-bill-splitter-swiftui */ = {
+			isa = PBXGroup;
+			children = (
+				A1CEE386296EBB2C00411EE5 /* Model */,
+				A1CEE385296EBB2500411EE5 /* View */,
+				A1CEE384296EBB1E00411EE5 /* Screen */,
+				A1FF8918296D84B500B6E36E /* eur-hrk-bill-splitter-swiftui.swift */,
+				A1FF891C296D84B600B6E36E /* Assets.xcassets */,
+				A1FF891E296D84B600B6E36E /* Preview Content */,
+			);
+			path = "eur-hrk-bill-splitter-swiftui";
+			sourceTree = "<group>";
+		};
+		A1FF891E296D84B600B6E36E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A1FF891F296D84B600B6E36E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1FF8914296D84B500B6E36E /* eur-hrk-bill-splitter-swiftui */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1FF8923296D84B600B6E36E /* Build configuration list for PBXNativeTarget "eur-hrk-bill-splitter-swiftui" */;
+			buildPhases = (
+				A1FF8911296D84B500B6E36E /* Sources */,
+				A1FF8912296D84B500B6E36E /* Frameworks */,
+				A1FF8913296D84B500B6E36E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "eur-hrk-bill-splitter-swiftui";
+			productName = "eur-hrk-bill-splitter-swiftui";
+			productReference = A1FF8915296D84B500B6E36E /* eur-hrk-bill-splitter-swiftui.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1FF890D296D84B400B6E36E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					A1FF8914296D84B500B6E36E = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = A1FF8910296D84B400B6E36E /* Build configuration list for PBXProject "eur-hrk-bill-splitter-swiftui" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1FF890C296D84B400B6E36E;
+			productRefGroup = A1FF8916296D84B500B6E36E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1FF8914296D84B500B6E36E /* eur-hrk-bill-splitter-swiftui */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1FF8913296D84B500B6E36E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1FF8920296D84B600B6E36E /* Preview Assets.xcassets in Resources */,
+				A1FF891D296D84B600B6E36E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1FF8911296D84B500B6E36E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1CEE381296EB9D200411EE5 /* MainScreen.swift in Sources */,
+				A1FF891B296D84B500B6E36E /* ContentView.swift in Sources */,
+				A1CEE38C296EEF6600411EE5 /* CurrencyShower.swift in Sources */,
+				A1FF8927296DAC8100B6E36E /* Converter.swift in Sources */,
+				A1CEE38A296EEE4D00411EE5 /* TitleView.swift in Sources */,
+				A1CEE388296EECE800411EE5 /* AmountTextField.swift in Sources */,
+				A1CEE38E296EFFF300411EE5 /* CollapsibleView.swift in Sources */,
+				A1FF8919296D84B500B6E36E /* eur-hrk-bill-splitter-swiftui.swift in Sources */,
+				A1CEE383296EBB1A00411EE5 /* RectangleView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A1FF8921296D84B600B6E36E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A1FF8922296D84B600B6E36E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A1FF8924296D84B600B6E36E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"eur-hrk-bill-splitter-swiftui/Preview Content\"";
+				DEVELOPMENT_TEAM = 73YN9D8LV2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.HRK-Bill-counter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A1FF8925296D84B600B6E36E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"eur-hrk-bill-splitter-swiftui/Preview Content\"";
+				DEVELOPMENT_TEAM = 73YN9D8LV2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.HRK-Bill-counter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1FF8910296D84B400B6E36E /* Build configuration list for PBXProject "eur-hrk-bill-splitter-swiftui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1FF8921296D84B600B6E36E /* Debug */,
+				A1FF8922296D84B600B6E36E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1FF8923296D84B600B6E36E /* Build configuration list for PBXNativeTarget "eur-hrk-bill-splitter-swiftui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1FF8924296D84B600B6E36E /* Debug */,
+				A1FF8925296D84B600B6E36E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1FF890D296D84B400B6E36E /* Project object */;
+}

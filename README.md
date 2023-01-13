@@ -1,0 +1,1 @@
+A simple application written with SwiftUI for bill splitting
