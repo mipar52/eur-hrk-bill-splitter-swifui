@@ -183,7 +183,7 @@ struct MainScreen: View {
                             }
 
                         }
-                        .alert("Custom tip", isPresented: $showingPeopleAlert) {
+                        .alert("Custom tip", isPresented: $showingTipAlert) {
                              TextField("Add amount", text: $customTip)
                                 .keyboardType(.numberPad)
                             Button("Add") {
@@ -194,6 +194,7 @@ struct MainScreen: View {
                          } message: {
                              Text("Enter you custom tip")
                          }
+                        
                          .alert("Custom person amount", isPresented: $showingPeopleAlert) {
                               TextField("Add amount", text: $customPeopleNum)
                                  .keyboardType(.numberPad)
